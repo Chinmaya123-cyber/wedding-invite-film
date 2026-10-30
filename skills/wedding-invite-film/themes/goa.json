@@ -1,0 +1,93 @@
+{
+ "id": "goa",
+ "name": "Goa — Portuguese quarter",
+ "region": "india",
+ "palette": {
+  "wall": "#E3B23C",
+  "ink": "#1F4E8C",
+  "accent": "#B4245D"
+ },
+ "particles": "bougainvillea",
+ "looks": {
+  "day": {
+   "color": "#1F4E8C",
+   "glow": "rgba(255,255,255,.95)"
+  }
+ },
+ "wall": {
+  "prompt": "Goan Latin-quarter house wall painted warm ochre yellow with white lime trim, the band is a white moulded cornice with a row of blue-and-white azulejo tiles, a white plinth, a red laterite cobbled lane"
+ },
+ "window": {
+  "prompt": "Goan colonial window with a white moulded arch frame and a decorative pediment, two wooden shutters painted deep blue opened to the sides"
+ },
+ "roof": {
+  "prompt": "cheerful elderly Goan grandmother with grey curls, floral cotton dress, a white shawl, waving"
+ },
+ "rider": {
+  "prompt": "vintage pastel-mint scooter ridden by a young man in a white linen shirt and straw hat, a basket of flowers on the back"
+ },
+ "props": [
+  {
+   "name": "taverna",
+   "role": "shopfront",
+   "prompt": "arched doorway of a small Goan taverna with a blue door, hanging lanterns and a chalkboard"
+  },
+  {
+   "name": "bougainvillea",
+   "role": "hang",
+   "prompt": "a cascading spray of magenta bougainvillea hanging down"
+  },
+  {
+   "name": "azulejos",
+   "role": "wall",
+   "prompt": "three framed blue-and-white azulejo tile panels of ships and flowers"
+  },
+  {
+   "name": "band",
+   "role": "people",
+   "prompt": "two Goan musicians in white shirts, one with a guitar and one with a ghumot drum"
+  },
+  {
+   "name": "chapeldoor",
+   "role": "door",
+   "prompt": "tall carved wooden door painted turquoise in a white arch"
+  }
+ ],
+ "plates": {
+  "church_day": {
+   "prompt": "a white baroque church with twin bell towers at the top of a zig-zag staircase, palm trees, bright blue sky with soft clouds",
+   "look": "sky"
+  },
+  "beach_night": {
+   "prompt": "a palm-lined beach at night with fairy lights strung between palms, lanterns on the sand, moon over the sea",
+   "look": "night",
+   "stars": true
+  },
+  "sunset": {
+   "prompt": "a Goan riverfront at sunset with fishing boats, a red-roofed villa and coconut palms, peach and coral sky",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "sunset",
+   "particles": "bougainvillea"
+  },
+  "sangeet": {
+   "plate": "beach_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "church_day",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "church_day",
+   "particles": "jasmine"
+  },
+  "reception": {
+   "plate": "beach_night",
+   "stars": true
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "lake-como",
+ "name": "Lake Como — Italian lakeside villa",
+ "region": "international",
+ "palette": {
+  "wall": "#E8C9A8",
+  "ink": "#2E4B5C",
+  "accent": "#7A3B3B"
+ },
+ "particles": "jasmine",
+ "fonts": {
+  "display": {
+   "family": "Italiana",
+   "file": "Italiana-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/italiana/Italiana-Regular.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#2E4B5C",
+   "glow": "rgba(255,255,255,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of ivory linen with soft folds and a delicate lace edge, small ivory tassels along the bottom"
+ },
+ "wall": {
+  "prompt": "pastel peach-pink villa wall with faded fresco borders, the band is a white stone balustrade with potted lemon trees, a grey stone plinth, a lakeside promenade of stone"
+ },
+ "window": {
+  "prompt": "arched villa window with a carved white stone frame, painted trompe-l'oeil border, dark green shutters opened to the sides"
+ },
+ "roof": {
+  "prompt": "elegant elderly Italian gentleman with a white moustache, linen suit and a straw boater, raising a glass"
+ },
+ "rider": {
+  "prompt": "a vintage cream Vespa with a young woman in a silk headscarf, a bouquet in the basket"
+ },
+ "props": [
+  {
+   "name": "gelateria",
+   "role": "shopfront",
+   "prompt": "a small lakeside café doorway with a striped awning and wicker chairs"
+  },
+  {
+   "name": "wisteria",
+   "role": "hang",
+   "prompt": "a cascading spray of purple wisteria hanging down"
+  },
+  {
+   "name": "frescoes",
+   "role": "wall",
+   "prompt": "three small framed fresco fragments of angels and flowers"
+  },
+  {
+   "name": "quartet",
+   "role": "people",
+   "prompt": "two musicians in suits playing cello and violin"
+  },
+  {
+   "name": "irongate",
+   "role": "door",
+   "prompt": "an ornate wrought-iron garden gate in a stone arch"
+  }
+ ],
+ "plates": {
+  "lake_day": {
+   "prompt": "a grand lakeside villa with terraced gardens and a stone jetty, wooden motorboats on a calm blue lake, mountains, soft sky",
+   "look": "day"
+  },
+  "terrace_night": {
+   "prompt": "a villa terrace at night with candlelit tables and string lights over the dark lake, village lights across the water",
+   "look": "night",
+   "stars": true
+  },
+  "garden": {
+   "prompt": "formal villa gardens with azaleas, statues and a fountain at golden hour",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "garden"
+  },
+  "ceremony": {
+   "plate": "lake_day",
+   "particles": "confetti"
+  },
+  "wedding": {
+   "plate": "lake_day",
+   "particles": "jasmine"
+  },
+  "reception": {
+   "plate": "terrace_night",
+   "stars": true
+  }
+ }
+}

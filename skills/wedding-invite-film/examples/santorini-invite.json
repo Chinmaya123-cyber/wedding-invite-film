@@ -1,0 +1,175 @@
+{
+ "song": {
+  "file": "audio/song.wav",
+  "bpm": null,
+  "first_beat": 0
+ },
+ "monogram": {
+  "left": "A",
+  "right": "L",
+  "caption": "Anaya & Leo"
+ },
+ "invitation": [
+  {
+   "k": "body",
+   "t": "Together with their families"
+  },
+  {
+   "k": "body",
+   "t": "we joyfully invite you to the wedding of"
+  },
+  {
+   "k": "name",
+   "t": "Anaya"
+  },
+  {
+   "k": "with",
+   "t": "&"
+  },
+  {
+   "k": "name",
+   "t": "Leo"
+  },
+  {
+   "k": "div"
+  },
+  {
+   "k": "body",
+   "t": "Saturday, 12<sup>th</sup> June 2027"
+  },
+  {
+   "k": "body",
+   "t": "Oia, Santorini"
+  }
+ ],
+ "events": [
+  {
+   "id": "welcome",
+   "plate": "sunset",
+   "look": "dusk",
+   "particles": "bougainvillea",
+   "lines": [
+    {
+     "k": "title",
+     "t": "Welcome Evening"
+    },
+    {
+     "k": "sub",
+     "t": "Sunset drinks on the caldera"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "Friday, 11<sup>th</sup> June"
+    },
+    {
+     "k": "body",
+     "t": "7:00 PM Onwards"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Summer Whites"
+    }
+   ]
+  },
+  {
+   "id": "ceremony",
+   "plate": "caldera_day",
+   "look": "sky",
+   "particles": "confetti",
+   "lines": [
+    {
+     "k": "title",
+     "t": "The Ceremony"
+    },
+    {
+     "k": "sub",
+     "t": "Vows above the Aegean"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "Saturday, 12<sup>th</sup> June"
+    },
+    {
+     "k": "body",
+     "t": "5:00 PM"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Garden Formal"
+    }
+   ]
+  },
+  {
+   "id": "reception",
+   "plate": "night",
+   "look": "night",
+   "stars": true,
+   "lines": [
+    {
+     "k": "title",
+     "t": "Reception"
+    },
+    {
+     "k": "sub",
+     "t": "Dinner, dancing &amp; a sky full of stars"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "Saturday, 12<sup>th</sup> June"
+    },
+    {
+     "k": "body",
+     "t": "8:30 PM till late"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Black Tie Optional"
+    }
+   ]
+  }
+ ],
+ "venue": [
+  {
+   "k": "small",
+   "t": "VENUE"
+  },
+  {
+   "k": "title",
+   "t": "Villa Kalimera, Oia"
+  },
+  {
+   "k": "div"
+  },
+  {
+   "k": "small",
+   "t": "YOUR PRESENCE IS THE"
+  },
+  {
+   "k": "small",
+   "t": "GREATEST GIFT OF ALL"
+  },
+  {
+   "k": "with",
+   "t": "with love,"
+  },
+  {
+   "k": "title",
+   "t": "Anaya &amp; Leo"
+  }
+ ],
+ "photos": {},
+ "options": {
+  "perWindow": 2,
+  "roofFigure": true,
+  "rider": true
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "chettinad",
+ "name": "Tamil Nadu — Chettinad mansion & temple",
+ "region": "india",
+ "palette": {
+  "wall": "#D9B98C",
+  "ink": "#7A3B0E",
+  "accent": "#8E1B2C"
+ },
+ "particles": "jasmine",
+ "fonts": {
+  "native": {
+   "family": "Tiro Tamil",
+   "file": "TiroTamil-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/tirotamil/TiroTamil-Regular.ttf"
+  }
+ },
+ "greeting": "சுப முகூர்த்தம்",
+ "wall": {
+  "prompt": "Chettinad mansion wall in warm egg-plaster cream with a terracotta red lower band, the band is a row of small colourful Athangudi tiles under a carved wooden eave, a polished black stone plinth, a sandy street"
+ },
+ "window": {
+  "prompt": "carved Burma-teak Chettinad window with a pointed arch, coloured glass panes and brass fittings, two shutters open"
+ },
+ "roof": {
+  "prompt": "dignified elderly Tamil grandmother in a deep maroon Kanjeevaram silk saree with a gold border, jasmine in her hair, hands in namaste"
+ },
+ "rider": {
+  "prompt": "a decorated bullock cart with two white bulls with painted horns and brass bells, a cart driver in a white veshti"
+ },
+ "props": [
+  {
+   "name": "silkshop",
+   "role": "shopfront",
+   "prompt": "a silk saree shop in a carved doorway with stacks of colourful silk sarees and brass lamps"
+  },
+  {
+   "name": "toranam",
+   "role": "hang",
+   "prompt": "a hanging toranam of fresh mango leaves and jasmine strings"
+  },
+  {
+   "name": "tanjore",
+   "role": "wall",
+   "prompt": "three gilded Tanjore-style paintings in heavy gold frames (lotus, peacock, elephant)"
+  },
+  {
+   "name": "nadaswaram",
+   "role": "people",
+   "prompt": "a nadaswaram player and a thavil drummer in white veshtis, playing"
+  },
+  {
+   "name": "chettidoor",
+   "role": "door",
+   "prompt": "massive carved teak entrance door with brass bosses and a carved lintel"
+  }
+ ],
+ "plates": {
+  "gopuram_day": {
+   "prompt": "a towering South Indian temple gopuram covered in colourful sculpture, banana trees and a temple elephant at the base, bright sky",
+   "look": "sky"
+  },
+  "tank_night": {
+   "prompt": "a temple tank at night with hundreds of oil lamps on the steps reflected in the water, a pillared mandapam, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "grove": {
+   "prompt": "a coconut grove with a pond and lotus flowers, a small village shrine, soft morning light",
+   "look": "day"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "grove",
+   "particles": "jasmine"
+  },
+  "sangeet": {
+   "plate": "tank_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "grove",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "gopuram_day",
+   "particles": "jasmine"
+  },
+  "reception": {
+   "plate": "tank_night",
+   "stars": true
+  }
+ }
+}

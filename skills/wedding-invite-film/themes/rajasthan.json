@@ -1,0 +1,96 @@
+{
+ "id": "rajasthan",
+ "name": "Rajasthan — Jaipur bazaar street",
+ "region": "india",
+ "palette": {
+  "wall": "#A99474",
+  "ink": "#C67A2E",
+  "accent": "#8E2B3A"
+ },
+ "fonts": {
+  "native": {
+   "family": "Tiro Devanagari Hindi",
+   "file": "TiroDevanagariHindi-Regular.ttf"
+  }
+ },
+ "greeting": "॥ श्री गणेशाय नमः ॥",
+ "particles": "marigold",
+ "wall": {
+  "prompt": "old Rajasthani haveli street wall in Jaipur: sun-baked sand-beige lime plaster (#A99474 to #BBA884) with soft mottling and hairline cracks; the band is carved sandstone jaali lattice with a thin cornice above and below; a carved stone plinth; a dusty pale sand street"
+ },
+ "window": {
+  "prompt": "ornate Rajasthani jharokha window: a pointed cusped Mughal arch frame of carved, hand-painted wood in warm brown and ochre covered in folk floral painting (white, teal, pink, green), a decorative crest on top, a carved sill below, both painted wooden shutters swung fully open to the sides"
+ },
+ "roof": {
+  "prompt": "kind elderly Rajasthani man with a white handlebar moustache, bright saffron bandhani safa turban, crisp white cotton kurta, hands joined in namaste, gentle smile"
+ },
+ "rider": {
+  "prompt": "traditional Indian cycle rickshaw with a young puller pedalling — red-orange Rajasthani turban, cream kurta, red dhoti — passenger hood hand-painted with colourful floral folk motifs, spoked wheels"
+ },
+ "props": [
+  {
+   "name": "archshop",
+   "role": "shopfront",
+   "prompt": "deep pointed sandstone archway of a small bazaar shop, dark interior, a woman in a mustard saree at the threshold beside heaped baskets of marigolds, colourful kathputli string puppets hanging at the upper left"
+  },
+  {
+   "name": "garlands",
+   "role": "hang",
+   "prompt": "four long vertical strings of yellow-orange marigold flowers hanging side by side, each ending in white jasmine buds and a red rose tassel"
+  },
+  {
+   "name": "frames",
+   "role": "wall",
+   "prompt": "salon-style cluster of eight small antique gilded frames holding Rajasthani miniature paintings — camels, a Rajput king, a lady with a veena, elephants, a peacock, a palace"
+  },
+  {
+   "name": "musicians",
+   "role": "people",
+   "prompt": "two Rajasthani folk musicians sitting cross-legged on a small rug — an old man in a red turban playing a ravanhatha and a younger man playing a dholak"
+  },
+  {
+   "name": "doors",
+   "role": "door",
+   "prompt": "old weathered carved wooden double door of a haveli in a scalloped cusped arch, sun-bleached grey-brown wood with iron studs, closed"
+  }
+ ],
+ "plates": {
+  "fort_day": {
+   "prompt": "a grand honey-sandstone Rajasthani hill fort palace with rows of jharokha balconies and chhatri domes along a ridge, seen from below; a curving stone ramp and fortified gateway in the lower third with tiny turbaned figures walking up; scrubby green hillside; soft pale lilac-and-cream sky; loose wet watercolour washes",
+   "look": "day"
+  },
+  "fort_night": {
+   "prompt": "the same fort at night: deep navy-indigo sky with faint stars, the whole palace glowing warm golden-amber from festive lights and diyas, deep blue shadows",
+   "look": "night",
+   "edit_of": "fort_day",
+   "stars": true
+  },
+  "tower": {
+   "prompt": "a tall ornate red-sandstone palace tower with a domed chhatri and arched balconies draped with jasmine and marigold garlands, crenellated terracotta walls with steps to the lower right, a peacock with a long green-gold tail perched on the parapet; soft powder-blue sky with feathery white clouds",
+   "look": "sky"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "fort_day",
+   "particles": "marigold"
+  },
+  "sangeet": {
+   "plate": "fort_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "tower",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "tower",
+   "particles": "rose"
+  },
+  "reception": {
+   "plate": "fort_night",
+   "stars": true
+  }
+ },
+ "cached": true
+}

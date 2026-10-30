@@ -1,0 +1,110 @@
+{
+ "id": "mughal",
+ "name": "Agra & Lucknow — Mughal marble and sandstone",
+ "region": "india",
+ "palette": {
+  "wall": "#B5694A",
+  "ink": "#6E2A16",
+  "accent": "#1F5C4A"
+ },
+ "particles": "rose",
+ "fonts": {
+  "native": {
+   "family": "Noto Nastaliq Urdu",
+   "file": "NotoNastaliqUrdu.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/notonastaliqurdu/NotoNastaliqUrdu%5Bwght%5D.ttf"
+  }
+ },
+ "greeting": "",
+ "looks": {
+  "day": {
+   "color": "#6E2A16",
+   "glow": "rgba(255,250,240,.95)"
+  }
+ },
+ "wall": {
+  "prompt": "Mughal-era red sandstone wall with white marble inlay borders and geometric patterns, the band is a white marble cornice with a carved floral frieze, a red sandstone plinth, a pale stone-paved courtyard"
+ },
+ "window": {
+  "prompt": "white marble Mughal window with a cusped arch, pietra-dura inlay of red and green stone flowers around it, a fine marble jaali border, opening fully open"
+ },
+ "roof": {
+  "prompt": "dignified elderly man with a white beard, cream sherwani and a white embroidered cap, hand on heart in welcome"
+ },
+ "rider": {
+  "prompt": "a horse-drawn tonga with a chestnut horse with a red plume and a driver in a white kurta, carriage painted cream and gold"
+ },
+ "props": [
+  {
+   "name": "attarshop",
+   "role": "shopfront",
+   "prompt": "a small attar perfume shop in a sandstone arch with rows of glass perfume bottles and a seller"
+  },
+  {
+   "name": "lanterns",
+   "role": "hang",
+   "prompt": "three hanging brass Mughal lanterns with pierced patterns"
+  },
+  {
+   "name": "miniatures",
+   "role": "wall",
+   "prompt": "three framed Mughal miniature paintings of gardens and courtiers in gold frames"
+  },
+  {
+   "name": "qawwals",
+   "role": "people",
+   "prompt": "two qawwali singers sitting on a carpet, one with a harmonium, clapping"
+  },
+  {
+   "name": "marbledoor",
+   "role": "door",
+   "prompt": "tall wooden door studded with brass in a white marble arch"
+  }
+ ],
+ "plates": {
+  "garden_day": {
+   "prompt": "a white marble domed mausoleum with four minarets beyond long water channels and cypress gardens, soft morning sky",
+   "look": "day"
+  },
+  "moon_night": {
+   "prompt": "the same marble mausoleum by full moonlight, glowing white-blue, reflections in the water channel, deep navy sky",
+   "look": "night",
+   "edit_of": "garden_day",
+   "stars": true
+  },
+  "pavilion": {
+   "prompt": "a red-sandstone and marble pavilion with arches and fountains, rose bushes, golden afternoon light",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "pavilion",
+   "particles": "rose"
+  },
+  "sangeet": {
+   "plate": "moon_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "garden_day",
+   "particles": "haldi"
+  },
+  "nikah": {
+   "plate": "garden_day",
+   "particles": "rose"
+  },
+  "wedding": {
+   "plate": "garden_day",
+   "particles": "rose"
+  },
+  "walima": {
+   "plate": "moon_night",
+   "stars": true
+  },
+  "reception": {
+   "plate": "moon_night",
+   "stars": true
+  }
+ }
+}

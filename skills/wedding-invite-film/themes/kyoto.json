@@ -1,0 +1,103 @@
+{
+ "id": "kyoto",
+ "name": "Kyoto — machiya lanes and blossom",
+ "region": "international",
+ "palette": {
+  "wall": "#6B4A3A",
+  "ink": "#8C2F2F",
+  "accent": "#B0283A"
+ },
+ "particles": "blossom",
+ "fonts": {
+  "native": {
+   "family": "Shippori Mincho",
+   "file": "ShipporiMincho-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/shipporimincho/ShipporiMincho-Regular.ttf"
+  }
+ },
+ "greeting": "寿",
+ "looks": {
+  "day": {
+   "color": "#7A2525",
+   "glow": "rgba(255,252,248,.95)"
+  },
+  "night": {
+   "color": "#FFF2E2",
+   "glow": "rgba(20,10,20,.85)"
+  }
+ },
+ "banner": {
+  "prompt": "tall sheet of plain cream washi paper with soft fibres and gentle creases, a thin red border, small red silk tassels along the bottom"
+ },
+ "wall": {
+  "prompt": "Kyoto machiya townhouse front of dark brown wooden lattice (koshi) panels and cream plaster, the band is a dark tiled eave with a wooden beam, a low stone plinth, a stone-paved lane"
+ },
+ "window": {
+  "prompt": "round moon window (marumado) in a dark wooden frame set in cream plaster, two shoji sliding panels pushed open to the sides"
+ },
+ "roof": {
+  "prompt": "gracious elderly Japanese woman in a plum-coloured kimono with an obi, bowing slightly with a smile"
+ },
+ "rider": {
+  "prompt": "a traditional Japanese jinrikisha rickshaw with a red seat and black hood, pulled by a young man in a happi coat and headband"
+ },
+ "props": [
+  {
+   "name": "teahouse",
+   "role": "shopfront",
+   "prompt": "a small teahouse entrance with an indigo noren curtain (no readable text) and a wooden bench"
+  },
+  {
+   "name": "lanterns",
+   "role": "hang",
+   "prompt": "three hanging red paper lanterns (no readable text)"
+  },
+  {
+   "name": "scrolls",
+   "role": "wall",
+   "prompt": "three hanging scroll paintings of cranes, plum blossoms and mountains"
+  },
+  {
+   "name": "koto",
+   "role": "people",
+   "prompt": "two musicians in kimono playing koto and shamisen, kneeling"
+  },
+  {
+   "name": "gate",
+   "role": "door",
+   "prompt": "a dark wooden sliding gate with a small tiled roof"
+  }
+ ],
+ "plates": {
+  "pagoda_day": {
+   "prompt": "a five-storey wooden pagoda above Kyoto rooftops with cherry blossoms in full bloom, soft spring sky",
+   "look": "sky"
+  },
+  "lantern_night": {
+   "prompt": "a lantern-lit stone-paved lane of wooden teahouses at night with a pagoda silhouette, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "torii": {
+   "prompt": "a path of vermilion torii gates winding up a forested hill, dappled golden light",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "torii"
+  },
+  "ceremony": {
+   "plate": "pagoda_day",
+   "particles": "blossom"
+  },
+  "wedding": {
+   "plate": "pagoda_day",
+   "particles": "blossom"
+  },
+  "reception": {
+   "plate": "lantern_night",
+   "stars": true
+  }
+ }
+}

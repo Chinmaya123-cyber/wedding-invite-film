@@ -1,0 +1,95 @@
+{
+ "id": "punjab",
+ "name": "Punjab — Amritsar haveli",
+ "region": "india",
+ "palette": {
+  "wall": "#B5654A",
+  "ink": "#8C3A12",
+  "accent": "#7D1D3F"
+ },
+ "particles": "marigold",
+ "fonts": {
+  "native": {
+   "family": "Tiro Gurmukhi",
+   "file": "TiroGurmukhi-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/tirogurmukhi/TiroGurmukhi-Regular.ttf"
+  }
+ },
+ "greeting": "ੴ ਸਤਿ ਨਾਮੁ",
+ "wall": {
+  "prompt": "old Punjabi haveli wall of small red Nanakshahi bricks with patches of cream lime plaster, the band is a carved wooden balcony rail with a mustard-yellow trim, a brick plinth step, a dusty village lane"
+ },
+ "window": {
+  "prompt": "carved Punjabi wooden window with an arched top, inlaid brass and green-painted lattice, two shutters open to the sides"
+ },
+ "roof": {
+  "prompt": "jovial elderly Sikh grandfather with a long white beard, saffron turban, white kurta, arms raised in a happy bhangra gesture"
+ },
+ "rider": {
+  "prompt": "a small decorated green tractor with a marigold garland, a young man in a turban driving, ribbons flying"
+ },
+ "props": [
+  {
+   "name": "lassi",
+   "role": "shopfront",
+   "prompt": "a small Punjabi dhaba shopfront with brass lassi glasses, a clay tandoor and stacked jaggery"
+  },
+  {
+   "name": "phulkari",
+   "role": "hang",
+   "prompt": "three hanging phulkari dupattas embroidered in orange, pink and gold"
+  },
+  {
+   "name": "photos",
+   "role": "wall",
+   "prompt": "three framed vintage family photographs in carved wooden frames"
+  },
+  {
+   "name": "dhol",
+   "role": "people",
+   "prompt": "two bhangra dhol players in colourful kurtas and turbans, mid-dance"
+  },
+  {
+   "name": "havelidoor",
+   "role": "door",
+   "prompt": "massive carved wooden haveli gate with brass studs, closed"
+  }
+ ],
+ "plates": {
+  "fields_day": {
+   "prompt": "endless yellow mustard fields with a lone tree, a well and a mud house, bright blue sky with soft clouds",
+   "look": "sky"
+  },
+  "haveli_night": {
+   "prompt": "a haveli courtyard at night with strings of fairy lights, brass lanterns and a dhol under a tree, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "village": {
+   "prompt": "a Punjabi village at golden hour, a decorated well, colourful dupattas drying, warm sunset sky",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "village",
+   "particles": "marigold"
+  },
+  "sangeet": {
+   "plate": "haveli_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "fields_day",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "fields_day",
+   "particles": "rose"
+  },
+  "reception": {
+   "plate": "haveli_night",
+   "stars": true
+  }
+ }
+}

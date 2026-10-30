@@ -1,0 +1,10 @@
+{
+  "name": "wedding-invite-film",
+  "version": "1.0.0",
+  "description": "Make personalised animated wedding invitation videos (9:16) in a painted street-scroll style: one continuous camera along a hand-painted street, a cloth banner that unrolls with the invitation, zoom-throughs into paintings of every ceremony, a venue banner — set to the couple's song. Customise names, ceremonies, language, photos and the place (16 Indian and international themes or any new one). HTML/CSS/JS + Playwright; paintings via the Atlabs MCP.",
+  "author": {"name": "Chinmaya", "url": "https://github.com/Chinmaya123-cyber"},
+  "homepage": "https://github.com/Chinmaya123-cyber/wedding-invite-film",
+  "repository": "https://github.com/Chinmaya123-cyber/wedding-invite-film",
+  "license": "MIT",
+  "keywords": ["wedding", "invitation", "e-invite", "shaadi", "animation", "motion-graphics", "playwright", "indian-wedding", "destination-wedding", "atlabs"]
+}

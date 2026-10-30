@@ -1,0 +1,101 @@
+{
+ "id": "udaipur",
+ "name": "Udaipur — white lake palaces",
+ "region": "india",
+ "palette": {
+  "wall": "#E7E0D2",
+  "ink": "#2F5D8A",
+  "accent": "#9C2F45"
+ },
+ "fonts": {
+  "native": {
+   "family": "Tiro Devanagari Hindi",
+   "file": "TiroDevanagariHindi-Regular.ttf"
+  }
+ },
+ "greeting": "॥ श्री गणेशाय नमः ॥",
+ "particles": "rose",
+ "looks": {
+  "day": {
+   "color": "#285680",
+   "glow": "rgba(255,255,255,.95)"
+  }
+ },
+ "wall": {
+  "prompt": "whitewashed lime-plaster wall of an old Udaipur lakeside lane, creamy white with faint sky-blue lime wash patches; the band is a white marble cornice with small carved arches; a pale stone plinth; a cobbled pale grey lane"
+ },
+ "window": {
+  "prompt": "white carved marble jharokha window with a cusped arch, inlaid with small coloured glass (blue, green, red) mosaic, delicate floral carving, a small domed canopy on top, two blue-painted wooden shutters open to the sides"
+ },
+ "roof": {
+  "prompt": "smiling elderly Mewari man with a white moustache, a red-and-yellow leheriya turban, white angarkha, hands joined in namaste"
+ },
+ "rider": {
+  "prompt": "decorated horse-drawn tonga carriage with a white horse wearing a red plume and a driver in a white turban, carriage painted turquoise and gold"
+ },
+ "props": [
+  {
+   "name": "lakeshop",
+   "role": "shopfront",
+   "prompt": "arched doorway of a miniature-painting shop in Udaipur with small paintings and silver jewellery displayed, a seller in a white kurta inside"
+  },
+  {
+   "name": "roses",
+   "role": "hang",
+   "prompt": "four long vertical strings of red roses and white jasmine hanging side by side"
+  },
+  {
+   "name": "pichwai",
+   "role": "wall",
+   "prompt": "three framed pichwai-style paintings of lotus ponds, cows and peacocks in gold frames"
+  },
+  {
+   "name": "singers",
+   "role": "people",
+   "prompt": "two Mewari folk women in leheriya odhnis sitting and singing, one with a small dholak"
+  },
+  {
+   "name": "bluedoor",
+   "role": "door",
+   "prompt": "old double door painted faded sky blue in a cusped arch, brass knockers"
+  }
+ ],
+ "plates": {
+  "lake_day": {
+   "prompt": "a white marble palace rising from a calm lake with small domed pavilions and arched balconies, wooden boats, distant Aravalli hills, soft morning sky",
+   "look": "day"
+  },
+  "lake_night": {
+   "prompt": "the same lake palace at night, every arch lit with warm lamps reflected in still navy water, stars",
+   "look": "night",
+   "edit_of": "lake_day",
+   "stars": true
+  },
+  "island": {
+   "prompt": "an island garden pavilion of white stone with chhatris and bougainvillea at golden hour, swans on the lake, peach-gold sky",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "island",
+   "particles": "rose"
+  },
+  "sangeet": {
+   "plate": "lake_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "lake_day",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "lake_day",
+   "particles": "rose"
+  },
+  "reception": {
+   "plate": "lake_night",
+   "stars": true
+  }
+ }
+}

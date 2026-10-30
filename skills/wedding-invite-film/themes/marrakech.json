@@ -1,0 +1,95 @@
+{
+ "id": "marrakech",
+ "name": "Marrakech — riads and souks",
+ "region": "international",
+ "palette": {
+  "wall": "#C1694F",
+  "ink": "#2D5D5A",
+  "accent": "#8E2B3A"
+ },
+ "particles": "rose",
+ "looks": {
+  "day": {
+   "color": "#234B48",
+   "glow": "rgba(255,250,240,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of cream cotton with soft folds, a woven Berber border in saffron and indigo, and a fringe of small wool pom-poms along the bottom"
+ },
+ "wall": {
+  "prompt": "Marrakech medina wall of warm terracotta-pink tadelakt plaster, the band is a row of green-and-white zellige tiles under a carved cedar-wood eave, a tiled plinth, a dusty pink lane"
+ },
+ "window": {
+  "prompt": "Moorish keyhole-arch window with carved plaster and painted cedar, small zellige border, two carved wooden shutters opened to the sides"
+ },
+ "roof": {
+  "prompt": "warm elderly Moroccan man with a white beard in a cream djellaba with a pointed hood, holding a brass teapot"
+ },
+ "rider": {
+  "prompt": "a small cart pulled by a donkey with colourful tassels, piled with rugs and lanterns, a young man walking beside"
+ },
+ "props": [
+  {
+   "name": "souk",
+   "role": "shopfront",
+   "prompt": "a souk stall under a carved arch hung with colourful slippers, rugs and lanterns"
+  },
+  {
+   "name": "lanterns",
+   "role": "hang",
+   "prompt": "three hanging pierced brass Moroccan lanterns"
+  },
+  {
+   "name": "tiles",
+   "role": "wall",
+   "prompt": "three framed zellige tile panels in blue, green and saffron"
+  },
+  {
+   "name": "gnawa",
+   "role": "people",
+   "prompt": "two gnawa musicians in white with a guembri and metal castanets"
+  },
+  {
+   "name": "riaddoor",
+   "role": "door",
+   "prompt": "a big carved and studded cedar riad door in a horseshoe arch"
+  }
+ ],
+ "plates": {
+  "riad_day": {
+   "prompt": "a riad courtyard with a tiled fountain, orange trees and carved arches, soft daylight",
+   "look": "day"
+  },
+  "desert_night": {
+   "prompt": "a desert camp at night with lanterns, rugs and white tents among sand dunes, stars",
+   "look": "night",
+   "stars": true
+  },
+  "atlas": {
+   "prompt": "a kasbah of red earth on a hill with the Atlas mountains at golden hour, palms",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "henna": {
+   "plate": "atlas",
+   "particles": "rose"
+  },
+  "welcome": {
+   "plate": "atlas"
+  },
+  "ceremony": {
+   "plate": "riad_day",
+   "particles": "rose"
+  },
+  "wedding": {
+   "plate": "riad_day",
+   "particles": "rose"
+  },
+  "reception": {
+   "plate": "desert_night",
+   "stars": true
+  }
+ }
+}

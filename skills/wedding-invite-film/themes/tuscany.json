@@ -1,0 +1,101 @@
+{
+ "id": "tuscany",
+ "name": "Tuscany — stone villa and vineyards",
+ "region": "international",
+ "palette": {
+  "wall": "#D4A373",
+  "ink": "#5B4636",
+  "accent": "#6B3A2E"
+ },
+ "particles": "jasmine",
+ "fonts": {
+  "display": {
+   "family": "Italiana",
+   "file": "Italiana-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/italiana/Italiana-Regular.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#4E3B2C",
+   "glow": "rgba(255,250,240,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of plain natural linen with soft wrinkles, a hemstitched border and a row of small cream tassels along the bottom edge"
+ },
+ "wall": {
+  "prompt": "Tuscan farmhouse wall of warm ochre stucco worn back to honey stone in patches, the band is a terracotta roof-tile eave with old wooden beams, a stone plinth, a gravel lane"
+ },
+ "window": {
+  "prompt": "Tuscan stone-framed window with sage-green wooden shutters opened to the sides and a small iron balcony rail"
+ },
+ "roof": {
+  "prompt": "warm-hearted Italian nonna with silver hair, a floral apron and a sprig of olive, waving"
+ },
+ "rider": {
+  "prompt": "a vintage bicycle with a wicker basket full of sunflowers ridden by a young man in a straw hat and white shirt"
+ },
+ "props": [
+  {
+   "name": "enoteca",
+   "role": "shopfront",
+   "prompt": "an arched stone doorway of a small wine shop with wine barrels, hanging salami and a chalkboard"
+  },
+  {
+   "name": "olive",
+   "role": "hang",
+   "prompt": "hanging garlands of olive branches and lemons"
+  },
+  {
+   "name": "maps",
+   "role": "wall",
+   "prompt": "three framed antique botanical prints of grapes, lemons and olives"
+  },
+  {
+   "name": "violin",
+   "role": "people",
+   "prompt": "two Italian street musicians playing violin and accordion"
+  },
+  {
+   "name": "woodgate",
+   "role": "door",
+   "prompt": "heavy old wooden gate under a stone arch with iron hinges"
+  }
+ ],
+ "plates": {
+  "vineyard_day": {
+   "prompt": "rolling Tuscan hills with vineyards, cypress-lined road and a stone villa, soft morning sky",
+   "look": "day"
+  },
+  "courtyard_night": {
+   "prompt": "a villa courtyard at night with long tables, string lights, candles and lemon trees, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "golden": {
+   "prompt": "a hilltop stone village with a bell tower at golden hour, sunflower fields",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "golden"
+  },
+  "rehearsal": {
+   "plate": "golden"
+  },
+  "ceremony": {
+   "plate": "vineyard_day",
+   "particles": "confetti"
+  },
+  "wedding": {
+   "plate": "vineyard_day",
+   "particles": "confetti"
+  },
+  "reception": {
+   "plate": "courtyard_night",
+   "stars": true
+  }
+ }
+}

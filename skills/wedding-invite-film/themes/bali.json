@@ -1,0 +1,92 @@
+{
+ "id": "bali",
+ "name": "Bali — temples and rice terraces",
+ "region": "international",
+ "palette": {
+  "wall": "#8C7B6A",
+  "ink": "#3D4A2E",
+  "accent": "#A0442C"
+ },
+ "particles": "frangipani",
+ "looks": {
+  "day": {
+   "color": "#33421F",
+   "glow": "rgba(255,255,245,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of natural raw cotton with soft folds, a woven batik border, and a fringe of small palm-leaf tassels along the bottom"
+ },
+ "wall": {
+  "prompt": "Balinese compound wall of grey volcanic stone and red brick with carved relief panels, moss in the joints, the band is a carved stone frieze of leaves, a stone plinth, a mossy stone path"
+ },
+ "window": {
+  "prompt": "carved and gilded Balinese wooden window with a pointed top, painted red and gold, two carved shutters opened to the sides"
+ },
+ "roof": {
+  "prompt": "serene Balinese woman in a white kebaya and sash carrying a canang offering basket of flowers on her head"
+ },
+ "rider": {
+  "prompt": "a small scooter with a young man in a sarong and udeng headband, a tall offering basket of fruit on the back"
+ },
+ "props": [
+  {
+   "name": "warung",
+   "role": "shopfront",
+   "prompt": "a small Balinese warung shop with a thatched roof, baskets of fruit and frangipani"
+  },
+  {
+   "name": "penjor",
+   "role": "hang",
+   "prompt": "a hanging bamboo penjor decoration of woven palm leaves"
+  },
+  {
+   "name": "batik",
+   "role": "wall",
+   "prompt": "three framed batik cloth panels of birds and flowers"
+  },
+  {
+   "name": "gamelan",
+   "role": "people",
+   "prompt": "two Balinese gamelan players with bronze instruments"
+  },
+  {
+   "name": "candi",
+   "role": "door",
+   "prompt": "a carved stone split gateway (candi bentar) with a small wooden door"
+  }
+ ],
+ "plates": {
+  "rice_day": {
+   "prompt": "lush green rice terraces with coconut palms and a small shrine, morning mist, soft blue sky",
+   "look": "day"
+  },
+  "cliff_dusk": {
+   "prompt": "a sea temple on a rocky cliff at sunset with waves, orange and violet sky",
+   "look": "dusk"
+  },
+  "beach_night": {
+   "prompt": "a beach at night with bamboo torches, a frangipani-decorated pavilion and lanterns, stars",
+   "look": "night",
+   "stars": true
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "cliff_dusk",
+   "particles": "frangipani"
+  },
+  "ceremony": {
+   "plate": "rice_day",
+   "particles": "frangipani"
+  },
+  "wedding": {
+   "plate": "rice_day",
+   "particles": "frangipani"
+  },
+  "reception": {
+   "plate": "beach_night",
+   "stars": true
+  }
+ }
+}

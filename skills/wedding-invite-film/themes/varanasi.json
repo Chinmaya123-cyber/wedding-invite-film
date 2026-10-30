@@ -1,0 +1,94 @@
+{
+ "id": "varanasi",
+ "name": "Varanasi — the ghats",
+ "region": "india",
+ "palette": {
+  "wall": "#C48A5C",
+  "ink": "#9A3D12",
+  "accent": "#7A1E2A"
+ },
+ "fonts": {
+  "native": {
+   "family": "Tiro Devanagari Hindi",
+   "file": "TiroDevanagariHindi-Regular.ttf"
+  }
+ },
+ "greeting": "॥ श्री गणेशाय नमः ॥",
+ "particles": "marigold",
+ "wall": {
+  "prompt": "old Varanasi lane wall of weathered ochre and faded pink lime plaster with faint painted borders, the band is a carved sandstone cornice with small temple niches, a stone step plinth, a worn stone-paved lane"
+ },
+ "window": {
+  "prompt": "carved sandstone window with a lotus-cusped arch and small temple spires above, two worn wooden shutters painted saffron, open"
+ },
+ "roof": {
+  "prompt": "gentle elderly priest with a white beard, saffron shawl, tilak on the forehead, holding a small brass bell"
+ },
+ "rider": {
+  "prompt": "cycle rickshaw with a puller in a checked lungi and white vest, canopy painted with marigolds"
+ },
+ "props": [
+  {
+   "name": "flowershop",
+   "role": "shopfront",
+   "prompt": "a small flower shop under a stone arch with heaps of marigolds, rose petals and brass lamps, a seller in a white dhoti"
+  },
+  {
+   "name": "bells",
+   "role": "hang",
+   "prompt": "strings of brass temple bells and marigold garlands hanging down"
+  },
+  {
+   "name": "shrineframes",
+   "role": "wall",
+   "prompt": "three framed old paintings of river ghats and boats"
+  },
+  {
+   "name": "shehnai",
+   "role": "people",
+   "prompt": "two musicians sitting cross-legged playing shehnai and tabla"
+  },
+  {
+   "name": "templedoor",
+   "role": "door",
+   "prompt": "ornate silver-clad temple-style double door with bells, closed"
+  }
+ ],
+ "plates": {
+  "ghats_dawn": {
+   "prompt": "the Varanasi ghats at dawn: tiers of stone steps and temples along the river, wooden boats, soft mist and a rising sun",
+   "look": "day"
+  },
+  "aarti_night": {
+   "prompt": "an evening river aarti on the ghats: rows of priests holding tall brass lamps, hundreds of floating diyas on the dark river, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "river_boat": {
+   "prompt": "a decorated wooden boat with marigold garlands drifting on the calm river, temple silhouettes, pale blue sky",
+   "look": "sky"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "ghats_dawn",
+   "particles": "marigold"
+  },
+  "sangeet": {
+   "plate": "aarti_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "river_boat",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "ghats_dawn",
+   "particles": "rose"
+  },
+  "reception": {
+   "plate": "aarti_night",
+   "stars": true
+  }
+ }
+}

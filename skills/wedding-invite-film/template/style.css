@@ -1,0 +1,52 @@
+/* Base styles. Colours and fonts come from theme.json (injected by scenes.js); no CSS animations —
+   every moving property is set by seek(t). Font families: display · body · script · native. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #111; overflow: hidden; }
+#stage { position: relative; overflow: hidden; background: var(--wall); transform-origin: 0 0;
+  -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+.scene { position: absolute; inset: 0; }
+img { display: block; user-select: none; }
+#world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.abs { position: absolute; }
+
+/* monogram painted on the wall */
+.mono { text-align: center; color: var(--accent); mix-blend-mode: multiply; opacity: .92; }
+.mono-letters { font: 118px/1 script, cursive; }
+.mono-letters span { font: 44px/1 display, serif; vertical-align: 28px; margin: 0 6px; }
+.mono-cap { font: 21px/1.4 display, serif; letter-spacing: .06em; margin-top: 6px; }
+
+/* banner */
+.banner { position: absolute; transform-origin: 50% 0; }
+.banner .cloth { position: absolute; inset: 0; }
+.banner .roll { position: absolute; left: -6px; right: -6px; height: 20px; border-radius: 10px;
+  background: linear-gradient(180deg, #cfc5b1 0%, #fbf8f1 38%, #efe8db 62%, #b9ae98 100%);
+  box-shadow: 0 6px 10px rgba(60, 40, 20, .28); }
+.banner .text { position: absolute; left: 30px; right: 30px; top: 0; display: flex; flex-direction: column;
+  align-items: center; text-align: center; color: var(--ink); mix-blend-mode: multiply; }
+.banner .k-title { font-size: 38px; line-height: 1.2; }
+
+/* text lines: k = native · body · small · sub · name · with · title · div */
+.ln { white-space: nowrap; }
+.ln sup { font-size: .6em; line-height: 0; }
+.k-native { font: 23px/1.6 native, serif; margin-bottom: 6px; }
+.k-body { font: 21px/1.45 body, serif; }
+.k-small { font: 15px/1.7 body, serif; letter-spacing: .12em; }
+.k-sub { font: 23px/1.5 body, serif; }
+.k-name { font: 68px/1.12 display, serif; margin: 10px 0 4px; }
+.k-with { font: italic 25px/1.5 body, serif; margin: 4px 0; }
+.k-title { font: 46px/1.25 display, serif; margin-bottom: 4px; }
+.k-div { height: 30px; display: flex; align-items: center; }
+.k-div svg { width: 150px; height: 16px; }
+
+/* ceremony plates */
+.plate { position: absolute; inset: 0; overflow: hidden; }
+.plate img.bg { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.plate .text { position: absolute; left: 20px; right: 20px; display: flex; flex-direction: column;
+  align-items: center; text-align: center; }
+.plate .text .ln { white-space: normal; }
+.star { position: absolute; border-radius: 50%; background: #fffbe8; box-shadow: 0 0 6px #fff6cf; }
+.petal { position: absolute; left: 0; top: 0; }
+
+#hud { position: fixed; left: 12px; top: 10px; font: 600 18px/1 sans-serif; color: #fff;
+  background: rgba(0,0,0,.75); padding: 6px 10px; border-radius: 6px; z-index: 9; }
+#scrub { position: fixed; left: 0; right: 0; bottom: 8px; width: 100%; }

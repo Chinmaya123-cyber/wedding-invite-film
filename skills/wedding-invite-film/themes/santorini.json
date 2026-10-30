@@ -1,0 +1,112 @@
+{
+ "id": "santorini",
+ "name": "Santorini — Cycladic island",
+ "region": "international",
+ "palette": {
+  "wall": "#F1EEE8",
+  "ink": "#1E4F8F",
+  "accent": "#1E4F8F"
+ },
+ "particles": "bougainvillea",
+ "fonts": {
+  "display": {
+   "family": "Italiana",
+   "file": "Italiana-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/italiana/Italiana-Regular.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#1E4F8F",
+   "glow": "rgba(255,255,255,.95)"
+  },
+  "sky": {
+   "color": "#1E4F8F",
+   "glow": "rgba(255,255,255,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of plain white linen with soft natural wrinkles and a delicate white lace border, a row of small blue-and-white tassels along the bottom edge"
+ },
+ "wall": {
+  "prompt": "whitewashed Cycladic house wall with soft rounded edges and slight unevenness, the band is a narrow pale-blue painted ledge with a row of small terracotta pots, a whitewashed step plinth, a lane of white-outlined grey flagstones"
+ },
+ "window": {
+  "prompt": "Cycladic arched window with a thick whitewashed frame, two deep Aegean-blue wooden shutters opened to the sides, a small blue flower box on the sill"
+ },
+ "roof": {
+  "prompt": "smiling elderly Greek grandmother with a black headscarf and a white apron, holding a basket of bougainvillea petals"
+ },
+ "rider": {
+  "prompt": "a vintage cream Vespa scooter ridden by a young man in a white linen shirt, a basket of lemons on the back"
+ },
+ "props": [
+  {
+   "name": "taverna",
+   "role": "shopfront",
+   "prompt": "a small whitewashed taverna doorway with a blue door, wicker chairs and hanging garlic and olive branches"
+  },
+  {
+   "name": "bougainvillea",
+   "role": "hang",
+   "prompt": "a cascading spray of magenta bougainvillea hanging down"
+  },
+  {
+   "name": "ceramics",
+   "role": "wall",
+   "prompt": "five hand-painted Greek ceramic plates hung on a wall in blue, white and yellow"
+  },
+  {
+   "name": "bouzouki",
+   "role": "people",
+   "prompt": "two Greek musicians sitting on chairs playing bouzouki and accordion"
+  },
+  {
+   "name": "bluedoor",
+   "role": "door",
+   "prompt": "arched wooden door painted Aegean blue with a brass knocker"
+  }
+ ],
+ "plates": {
+  "caldera_day": {
+   "prompt": "blue-domed white churches and cave houses tumbling down a cliff above a deep blue caldera sea, bright summer sky",
+   "look": "sky"
+  },
+  "sunset": {
+   "prompt": "the same cliff village at golden sunset, windmills, peach-gold and lilac sky over the sea",
+   "look": "dusk",
+   "edit_of": "caldera_day"
+  },
+  "night": {
+   "prompt": "a whitewashed terrace at night with lanterns and string lights over the sea, stars",
+   "look": "night",
+   "stars": true
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "sunset",
+   "particles": "bougainvillea"
+  },
+  "rehearsal": {
+   "plate": "sunset"
+  },
+  "ceremony": {
+   "plate": "caldera_day",
+   "particles": "confetti"
+  },
+  "wedding": {
+   "plate": "caldera_day",
+   "particles": "confetti"
+  },
+  "reception": {
+   "plate": "night",
+   "stars": true
+  },
+  "after_party": {
+   "plate": "night",
+   "stars": true
+  }
+ },
+ "cached": true
+}

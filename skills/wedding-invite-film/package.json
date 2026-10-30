@@ -1,0 +1,7 @@
+{
+  "name": "wedding-invite-film",
+  "private": true,
+  "type": "module",
+  "description": "Animated wedding invitation films: painted street, unrolling banner, window zoom-throughs. Rendered with Playwright + ffmpeg.",
+  "dependencies": { "playwright": "1.64.1" }
+}

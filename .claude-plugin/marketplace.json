@@ -1,0 +1,14 @@
+{
+  "name": "wedding-invite-film",
+  "owner": {"name": "Chinmaya", "url": "https://github.com/Chinmaya123-cyber"},
+  "metadata": {"description": "Painted street-scroll wedding invitation video skill for Claude", "version": "1.0.0"},
+  "plugins": [
+    {
+      "name": "wedding-invite-film",
+      "source": "./",
+      "description": "Personalised animated wedding invite videos — a painted street, an unrolling banner, window zoom-throughs into each ceremony. 16 Indian and international places, your names, photos and song. Atlabs MCP for the paintings.",
+      "version": "1.0.0",
+      "category": "creative"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+ "id": "paris",
+ "name": "Paris — Haussmann boulevard",
+ "region": "international",
+ "palette": {
+  "wall": "#D8CBB3",
+  "ink": "#2B3A55",
+  "accent": "#7A2E3A"
+ },
+ "particles": "blossom",
+ "fonts": {
+  "display": {
+   "family": "Italiana",
+   "file": "Italiana-Regular.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/italiana/Italiana-Regular.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#2B3A55",
+   "glow": "rgba(255,255,255,.95)"
+  },
+  "sky": {
+   "color": "#2B3A55",
+   "glow": "rgba(255,255,255,.95)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of ivory silk-cotton with soft folds, a fine satin ribbon border and small ivory tassels along the bottom edge"
+ },
+ "wall": {
+  "prompt": "Parisian Haussmann building wall of pale cream limestone blocks, the band is a long black wrought-iron balcony railing with ornate scrollwork on a stone ledge, a stone plinth, a grey cobbled pavement"
+ },
+ "window": {
+  "prompt": "tall Parisian French window in a carved limestone frame with a small wrought-iron balconette, both glazed doors opened inward to the sides"
+ },
+ "roof": {
+  "prompt": "chic elderly Parisian florist with a grey bob, striped shirt and a bouquet of peonies"
+ },
+ "rider": {
+  "prompt": "a vintage bicycle with a front basket of baguettes and pink peonies ridden by a young man in a beret"
+ },
+ "props": [
+  {
+   "name": "fleuriste",
+   "role": "shopfront",
+   "prompt": "a Parisian flower shop front with a green awning, buckets of roses and peonies"
+  },
+  {
+   "name": "baskets",
+   "role": "hang",
+   "prompt": "hanging baskets of trailing pink geraniums"
+  },
+  {
+   "name": "posters",
+   "role": "wall",
+   "prompt": "three framed vintage Parisian posters (no readable text)"
+  },
+  {
+   "name": "cafe",
+   "role": "people",
+   "prompt": "two musicians at a café table, one with an accordion and one with a guitar"
+  },
+  {
+   "name": "portecochere",
+   "role": "door",
+   "prompt": "a grand dark green carriage door with brass knobs in a stone arch"
+  }
+ ],
+ "plates": {
+  "seine_day": {
+   "prompt": "the river Seine with stone bridges, plane trees and a tall iron lattice tower in the distance, soft spring sky",
+   "look": "sky"
+  },
+  "seine_night": {
+   "prompt": "the same river at night, the iron tower sparkling with golden lights, lamp-lit bridges reflected in the water",
+   "look": "night",
+   "edit_of": "seine_day",
+   "stars": true
+  },
+  "montmartre": {
+   "prompt": "a cobbled Montmartre hill street with cafés and a white domed basilica at the top, cherry blossoms, golden light",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "montmartre",
+   "particles": "blossom"
+  },
+  "ceremony": {
+   "plate": "seine_day",
+   "particles": "confetti"
+  },
+  "wedding": {
+   "plate": "seine_day",
+   "particles": "blossom"
+  },
+  "reception": {
+   "plate": "seine_night",
+   "stars": true
+  }
+ }
+}

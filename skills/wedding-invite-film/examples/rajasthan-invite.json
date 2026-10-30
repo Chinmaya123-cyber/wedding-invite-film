@@ -1,0 +1,234 @@
+{
+ "song": {
+  "file": "audio/song.wav",
+  "bpm": null,
+  "first_beat": 0
+ },
+ "monogram": {
+  "left": "M",
+  "right": "R",
+  "caption": "Mohini & Rishabh"
+ },
+ "invitation": [
+  {
+   "k": "native",
+   "t": "॥ श्री गणेशाय नमः ॥"
+  },
+  {
+   "k": "body",
+   "t": "With the blessings of Lord Ganesha"
+  },
+  {
+   "k": "body",
+   "t": "and the love of our families,"
+  },
+  {
+   "k": "body",
+   "t": "we joyfully invite you to the wedding of"
+  },
+  {
+   "k": "name",
+   "t": "Mohini"
+  },
+  {
+   "k": "with",
+   "t": "with"
+  },
+  {
+   "k": "name",
+   "t": "Rishabh"
+  },
+  {
+   "k": "div"
+  },
+  {
+   "k": "body",
+   "t": "Monday, 15<sup>th</sup> February 2027"
+  },
+  {
+   "k": "body",
+   "t": "Jaipur, Rajasthan"
+  }
+ ],
+ "events": [
+  {
+   "id": "mehendi",
+   "plate": "fort_day",
+   "look": "day",
+   "particles": "marigold",
+   "lines": [
+    {
+     "k": "title",
+     "t": "Rang-e-Mehendi"
+    },
+    {
+     "k": "sub",
+     "t": "Mehendi Ceremony"
+    },
+    {
+     "k": "body",
+     "t": "Henna, folk songs &amp; a sprinkle of mischief"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "14<sup>th</sup> February, 2027"
+    },
+    {
+     "k": "body",
+     "t": "Sunday, 11:00 AM Onwards"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Shades of Green"
+    }
+   ]
+  },
+  {
+   "id": "sangeet",
+   "plate": "fort_night",
+   "look": "night",
+   "stars": true,
+   "lines": [
+    {
+     "k": "title",
+     "t": "Sangeet Sandhya"
+    },
+    {
+     "k": "sub",
+     "t": "Engagement &amp; Sangeet"
+    },
+    {
+     "k": "body",
+     "t": "An evening of music, dance, celebration &amp;<br>unforgettable performances"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "14<sup>th</sup> February, 2027"
+    },
+    {
+     "k": "body",
+     "t": "Sunday, 7:30 PM Onwards"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Glitz &amp; Glam"
+    }
+   ]
+  },
+  {
+   "id": "haldi",
+   "plate": "tower",
+   "look": "sky",
+   "particles": "haldi",
+   "lines": [
+    {
+     "k": "title",
+     "t": "Haldi ki Rasam"
+    },
+    {
+     "k": "sub",
+     "t": "Haldi &amp; Phoolon ki Holi"
+    },
+    {
+     "k": "body",
+     "t": "A splash of turmeric, a shower of petals<br>&amp; a morning full of laughter"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "15<sup>th</sup> February, 2027"
+    },
+    {
+     "k": "body",
+     "t": "Monday, 10:00 AM Onwards"
+    },
+    {
+     "k": "body",
+     "t": "Dress Code: Yellow &amp; Pastels"
+    }
+   ]
+  },
+  {
+   "id": "wedding",
+   "plate": "tower",
+   "look": "sky",
+   "particles": "rose",
+   "lines": [
+    {
+     "k": "title",
+     "t": "Saat Phere"
+    },
+    {
+     "k": "sub",
+     "t": "Sealed with love &amp; seven forever vows"
+    },
+    {
+     "k": "div"
+    },
+    {
+     "k": "sub",
+     "t": "15<sup>th</sup> February, 2027"
+    },
+    {
+     "k": "body",
+     "t": "Monday"
+    },
+    {
+     "k": "body",
+     "t": "Baraat – 5:00 PM"
+    },
+    {
+     "k": "body",
+     "t": "Varmala – 7:30 PM"
+    },
+    {
+     "k": "body",
+     "t": "Pheras – 9:00 PM"
+    }
+   ]
+  }
+ ],
+ "venue": [
+  {
+   "k": "small",
+   "t": "VENUE"
+  },
+  {
+   "k": "title",
+   "t": "The Amber Haveli, Jaipur"
+  },
+  {
+   "k": "div"
+  },
+  {
+   "k": "small",
+   "t": "YOUR BLESSINGS AND PRESENCE"
+  },
+  {
+   "k": "small",
+   "t": "WILL MAKE OUR JOY COMPLETE"
+  },
+  {
+   "k": "with",
+   "t": "with love,"
+  },
+  {
+   "k": "title",
+   "t": "The Families of<br>Mohini &amp; Rishabh"
+  }
+ ],
+ "photos": {},
+ "options": {
+  "perWindow": 2,
+  "roofFigure": true,
+  "rider": true
+ }
+}

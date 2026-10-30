@@ -1,0 +1,101 @@
+{
+ "id": "kerala",
+ "name": "Kerala — tharavadu and backwaters",
+ "region": "india",
+ "palette": {
+  "wall": "#C98F5A",
+  "ink": "#8A5A12",
+  "accent": "#7A1E1E"
+ },
+ "particles": "jasmine",
+ "fonts": {
+  "native": {
+   "family": "Noto Serif Malayalam",
+   "file": "NotoSerifMalayalam.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/notoserifmalayalam/NotoSerifMalayalam%5Bwght%5D.ttf"
+  }
+ },
+ "greeting": "ശുഭ വിവാഹം",
+ "looks": {
+  "day": {
+   "color": "#6B4410",
+   "glow": "rgba(255,250,235,.95)"
+  }
+ },
+ "wall": {
+  "prompt": "Kerala tharavadu house wall: lower part red laterite stone, upper part cream lime plaster, the band is a carved teak wooden eave with a row of small brass bells, a red-oxide polished plinth step, a sandy path with fallen leaves"
+ },
+ "window": {
+  "prompt": "carved Kerala teak wooden window with an arched top and lotus carvings, brass studs, two wooden shutters open to the sides"
+ },
+ "roof": {
+  "prompt": "graceful elderly Malayali woman with silver hair in a bun with jasmine, wearing a cream kasavu saree with a gold border, holding a small brass lamp"
+ },
+ "rider": {
+  "prompt": "black-and-yellow Indian auto-rickshaw decorated with jasmine garlands and banana leaves, a smiling driver in a white mundu"
+ },
+ "props": [
+  {
+   "name": "lampshop",
+   "role": "shopfront",
+   "prompt": "a small Kerala shop with brass nilavilakku lamps, uruli bowls and bunches of bananas on display"
+  },
+  {
+   "name": "thoranam",
+   "role": "hang",
+   "prompt": "a hanging decoration of tender coconut-leaf thoranam and jasmine strings"
+  },
+  {
+   "name": "murals",
+   "role": "wall",
+   "prompt": "three framed Kerala mural paintings in ochre, green and red of musicians and lotuses"
+  },
+  {
+   "name": "chenda",
+   "role": "people",
+   "prompt": "two Kerala chenda drummers in white mundus with their drums"
+  },
+  {
+   "name": "nadumuttam",
+   "role": "door",
+   "prompt": "heavy carved teak double door with brass bosses under a sloping tiled roof"
+  }
+ ],
+ "plates": {
+  "backwater_day": {
+   "prompt": "a carved Kerala houseboat on calm green backwaters lined with coconut palms, a canoe, misty morning sky",
+   "look": "day"
+  },
+  "temple_night": {
+   "prompt": "a Kerala temple courtyard at night lit by hundreds of brass oil lamps on a tall deepastambham, warm glow, navy sky",
+   "look": "night",
+   "stars": true
+  },
+  "beach": {
+   "prompt": "a palm-fringed beach with a red-and-white lighthouse on a cliff at soft sunset, gentle waves",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "mehendi": {
+   "plate": "backwater_day",
+   "particles": "jasmine"
+  },
+  "sangeet": {
+   "plate": "temple_night",
+   "stars": true
+  },
+  "haldi": {
+   "plate": "beach",
+   "particles": "haldi"
+  },
+  "wedding": {
+   "plate": "backwater_day",
+   "particles": "jasmine"
+  },
+  "reception": {
+   "plate": "temple_night",
+   "stars": true
+  }
+ }
+}

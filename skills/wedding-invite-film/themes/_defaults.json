@@ -1,0 +1,57 @@
+{
+ "palette": {
+  "wall": "#A99474",
+  "ink": "#C67A2E",
+  "accent": "#8E2B3A"
+ },
+ "fonts": {
+  "display": {
+   "family": "Federo",
+   "file": "Federo-Regular.ttf"
+  },
+  "body": {
+   "family": "Tinos",
+   "file": "Tinos-Regular.woff2"
+  },
+  "body_italic": {
+   "family": "Tinos Italic",
+   "file": "TinosItalic.woff2"
+  },
+  "script": {
+   "family": "Pinyon Script",
+   "file": "PinyonScript-Regular.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#A9521C",
+   "glow": "rgba(255,249,238,.95)"
+  },
+  "night": {
+   "color": "#FFF4E0",
+   "glow": "rgba(10,18,48,.85)"
+  },
+  "sky": {
+   "color": "#B4531F",
+   "glow": "rgba(250,252,255,.95)"
+  },
+  "dusk": {
+   "color": "#5E2638",
+   "glow": "rgba(255,246,238,.95)"
+  }
+ },
+ "particles": "marigold",
+ "style": "near-photoreal gouache painting, soft natural light, gentle paper texture",
+ "wall": {
+  "ledge": 0.227,
+  "band_bottom": 0.343,
+  "plinth": 0.794,
+  "street": 0.954
+ },
+ "banner": {
+  "prompt": "sheet of plain off-white handloom cotton cloth with a fine visible weave and a few soft natural wrinkles; along the bottom edge a row of cream thread tassels ending in small red-and-white pom-poms"
+ },
+ "rider_width": 340,
+ "banner_text_top": 96,
+ "plate_text_top": 74
+}

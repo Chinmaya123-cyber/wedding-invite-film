@@ -1,0 +1,104 @@
+{
+ "id": "scotland",
+ "name": "Scotland — highland castle",
+ "region": "international",
+ "palette": {
+  "wall": "#8E8577",
+  "ink": "#2E3B32",
+  "accent": "#5C2433"
+ },
+ "particles": "lavender",
+ "fonts": {
+  "display": {
+   "family": "Cinzel",
+   "file": "Cinzel.ttf",
+   "url": "https://github.com/google/fonts/raw/main/ofl/cinzel/Cinzel%5Bwght%5D.ttf"
+  }
+ },
+ "looks": {
+  "day": {
+   "color": "#2A3A2E",
+   "glow": "rgba(255,255,250,.95)"
+  },
+  "night": {
+   "color": "#F6EEDC",
+   "glow": "rgba(20,20,30,.85)"
+  }
+ },
+ "banner": {
+  "prompt": "sheet of ivory wool-linen cloth with soft folds and a narrow green-and-navy tartan border, a row of small tartan tassels along the bottom"
+ },
+ "wall": {
+  "prompt": "grey castle stone wall of rough granite blocks with patches of ivy, the band is a row of stone battlements with a carved corbel course, a stone plinth, a cobbled courtyard"
+ },
+ "window": {
+  "prompt": "Gothic pointed-arch castle window with a deep stone frame and leaded-glass casements opened inward to the sides"
+ },
+ "roof": {
+  "prompt": "friendly elderly Scottish bagpiper in a green tartan kilt and jacket with a feather bonnet, holding bagpipes"
+ },
+ "rider": {
+  "prompt": "a vintage black horse-drawn carriage with a white horse, a coachman in a top hat"
+ },
+ "props": [
+  {
+   "name": "tavern",
+   "role": "shopfront",
+   "prompt": "an old stone tavern doorway with a wooden sign shape, barrels and a lantern"
+  },
+  {
+   "name": "heather",
+   "role": "hang",
+   "prompt": "hanging bundles of purple heather and thistles"
+  },
+  {
+   "name": "crests",
+   "role": "wall",
+   "prompt": "three framed old tapestries of stags and thistles"
+  },
+  {
+   "name": "pipers",
+   "role": "people",
+   "prompt": "two pipers in kilts, one with a snare drum"
+  },
+  {
+   "name": "castledoor",
+   "role": "door",
+   "prompt": "heavy oak castle door with iron straps under a stone arch"
+  }
+ ],
+ "plates": {
+  "loch_day": {
+   "prompt": "a highland castle on a small island in a misty loch with heather hills and a stone bridge, soft grey-blue sky",
+   "look": "day"
+  },
+  "hall_night": {
+   "prompt": "a great castle hall at night with candlelit chandeliers, long tables and a roaring fireplace, warm glow",
+   "look": "night"
+  },
+  "moor": {
+   "prompt": "purple heather moorland and mountains at golden hour with a lone stag",
+   "look": "dusk"
+  }
+ },
+ "ceremonies": {
+  "welcome": {
+   "plate": "moor",
+   "particles": "lavender"
+  },
+  "ceremony": {
+   "plate": "loch_day",
+   "particles": "confetti"
+  },
+  "wedding": {
+   "plate": "loch_day",
+   "particles": "lavender"
+  },
+  "reception": {
+   "plate": "hall_night"
+  },
+  "ceilidh": {
+   "plate": "hall_night"
+  }
+ }
+}
